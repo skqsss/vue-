@@ -23,12 +23,11 @@ body {
 
 #app {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   max-width: 500px;
   margin: 0 auto;
-  border: 1px solid #ddd;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  background: #fff; /* 为内容区域添加白色背景，突出边框效果 */
+  background: #fff;
+  overflow-y: auto;
 }
 
 /* 为所有页面内容添加最大宽度限制 */
